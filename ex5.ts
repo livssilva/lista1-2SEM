@@ -4,11 +4,11 @@ o valor unitário de cada peça 1, o  código de uma peça 2,
 
 const teclado = require ('prompt-sync')();
 
-let codigoPeca1 = Number(teclado('Código da peça 1: '));
-let numeroPeca1 = Number(teclado('Número de peças 1: '));
-let valorUnitarioPeca1 = Number(teclado('Valor unitário da peça 1: '));
-let codigoPeca2 = Number(teclado('Código da peça 2: '));
-let numeroPeca2 = Number(teclado('Número de peças 2: '));
+let codigoPeca1: number = parseInt(teclado('Código da peça 1: '));
+let numeroPeca1: number = parseInt(teclado('Número de peças 1: '));
+let valorUnitarioPeca1: number = parseInt(teclado('Valor unitário da peça 1: '));
+let codigoPeca2: number = parseInt(teclado('Código da peça 2: '));
+let numeroPeca2: number = parseInt(teclado('Número de peças 2: '));
 
 let valorUnitarioPeca2 = Number(teclado('Valor unitário da peça 2: '));
 let valorTotal = (numeroPeca1 * valorUnitarioPeca1) + (numeroPeca2 * valorUnitarioPeca2);

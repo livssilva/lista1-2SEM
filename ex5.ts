@@ -10,7 +10,7 @@ let valorUnitarioPeca1: number = parseInt(teclado('Valor unitário da peça 1: '
 let codigoPeca2: number = parseInt(teclado('Código da peça 2: '));
 let numeroPeca2: number = parseInt(teclado('Número de peças 2: '));
 
-let valorUnitarioPeca2 = Number(teclado('Valor unitário da peça 2: '));
+let valorUnitarioPeca2: number = parseInt(teclado('Valor unitário da peça 2: '));
 let valorTotal = (numeroPeca1 * valorUnitarioPeca1) + (numeroPeca2 * valorUnitarioPeca2);
 
 console.log(`VALOR A PAGAR: R$ ${valorTotal}`);
